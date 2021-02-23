@@ -1,4 +1,4 @@
-# ESP-IDF Components library - dirty HACKED by BugerDread to be able to compile on ESP32-C3 (Risc-V)
+# ESP-IDF Components library - dirty HACKED to compile on ESP32-C3 (Risc-V)
 
 This is fork of esp-idf-lib quickly hacked to be able to use it to play with the new Risc-V ESP32-C3. Please note that this is not completely fixed, but just really quick-hacked to be able to COMPILE with.
 
