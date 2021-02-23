@@ -19,7 +19,7 @@
 #elif HELPER_TARGET_VERSION == HELPER_TARGET_VERSION_ESP32S2_V4
 #include <esp32s2/rom/ets_sys.h>
 #else
-#include <rom/ets_sys.h>
+#include <esp32c3/rom/ets_sys.h> //BGR hack
 #endif
 
 #define MS 1000
