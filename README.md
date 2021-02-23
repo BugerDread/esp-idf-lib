@@ -8,7 +8,7 @@ I also added minus sign support and fixed max brightness for max7219 - see https
 
 Have a fun!
 
-Below is the original readme od esp-idf-lib.
+Below is the original readme of esp-idf-lib.
 
 # ESP-IDF Components library
 
