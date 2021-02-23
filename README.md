@@ -1,5 +1,16 @@
-# ESP-IDF Components library
+# ESP-IDF Components library - dirty HACKED by BugerDread to be able to compile on ESP32-C3 (Risc-V)
 
+This is fork of esp-idf-lib quickly hacked to be able to use it to play with the new Risc-V ESP32-C3. Please note that this is not completely fixed, but just really quick-hacked to be able to COMPILE with.
+
+So far I tried led_strip component to control the neopixel on C3 devboard and MAX7219_7seg to control display attached to SPI (I will add fixed example for max7219_7seg later also as C3 uses different pins and spi host).
+
+I also added minus sign support and fixed max mrightness for max7219 - see https://github.com/UncleRus/esp-idf-lib/pull/159
+
+Have a fun!
+
+Below is the original readme od esp-idf-lib.
+
+# ESP-IDF Components library
 
 [![Build Status](https://github.com/UncleRus/esp-idf-lib/workflows/Build%20examples/badge.svg)](https://github.com/UncleRus/esp-idf-lib/actions?query=workflow%3A%22Build+examples%22)
 [![Build the documentation](https://github.com/UncleRus/esp-idf-lib/workflows/Build%20the%20documentation/badge.svg)](https://github.com/UncleRus/esp-idf-lib/actions?query=workflow%3A%22Build+the+documentation%22)
