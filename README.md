@@ -8,6 +8,10 @@ I also added minus sign support and fixed max brightness for max7219 - see https
 
 Have a fun!
 
+P.S. I made a Risc-V bitcoin ticker while playing with ESP32-C3, see:
+- https://data.dread.cz/index.php/s/9qnCoGRDrbqbFyf
+- https://data.dread.cz/index.php/s/BEiGsCie5EHiPyM
+
 Below is the original readme of esp-idf-lib.
 
 # ESP-IDF Components library
