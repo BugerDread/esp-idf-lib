@@ -4,7 +4,7 @@ This is fork of esp-idf-lib quickly hacked to be able to use it to play with the
 
 So far I tried led_strip component to control the neopixel on C3 devboard and MAX7219_7seg to control display attached to SPI (I will add fixed example for max7219_7seg later also as C3 uses different pins and spi host).
 
-I also added minus sign support and fixed max mrightness for max7219 - see https://github.com/UncleRus/esp-idf-lib/pull/159
+I also added minus sign support and fixed max brightness for max7219 - see https://github.com/UncleRus/esp-idf-lib/pull/159
 
 Have a fun!
 
